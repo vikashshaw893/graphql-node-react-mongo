@@ -1,0 +1,28 @@
+{
+    "name": "node_graphql_mongodb",
+    "version": "1.0.0",
+    "description": "node graphql",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node app.js",
+      "dev": "nodemon app.js"
+    },
+    "keywords": [
+      "node",
+      "js",
+      "graphql"
+    ],
+    "author": "Vikash Shaw",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1",
+      "express-graphql": "^0.12.0",
+      "graphql": "^15.5.1",
+      "lodash": "^4.17.21",
+      "mongoose": "^5.13.3"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.12"
+    }
+  }
