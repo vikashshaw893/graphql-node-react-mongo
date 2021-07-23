@@ -1,4 +1,6 @@
-export const DB_USER = "TEST";
-export const DB_PASSWORD = "TEST";
-export const DB_NAME = "TEST";
-export const DB_CLUSTER = "TEST";
+module.exports = {
+    DB_USER : "TEST",
+    DB_PASSWORD : "TEST",
+    DB_NAME : "TEST",
+    DB_CLUSTER : "TEST" 
+};
