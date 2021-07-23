@@ -68,7 +68,7 @@ get all books detail>>>>>>>>>>>>>
 get single author detail>>>>>>>>>>>
 
 {
-  author(id:"60f93743130d754de02aedc9")
+  author(id:"mongodbAuthorId")
   {
     name
     id
