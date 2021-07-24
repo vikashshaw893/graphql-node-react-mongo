@@ -1,10 +1,14 @@
 const express = require("express");
 const {graphqlHTTP} = require("express-graphql");
 const mongoose = require("mongoose");
+const cors = require("cors");
 const dbParams = require("./config/db_config.js")
 const schema = require("./schema/schema.js");
 
 const app = express();
+
+//allow cross-origin request
+app.use(cors())
 
 //connect mongodb database
 mongoose.connect(`mongodb+srv://${dbParams.DB_USER}:${dbParams.DB_PASSWORD}@${dbParams.DB_CLUSTER}.ysops.mongodb.net/${dbParams.DB_NAME}`, {useNewUrlParser: true, useUnifiedTopology: true});
